@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="53a81c08-356e-4099-aad6-5d9d16e96f9a" name="povesma" url="http://povesma.valuehost.ru/povesma_2016/">
+        <fileTransfer host="povesma.valuehost.ru" port="21" username="povesma_dima">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -19,10 +19,10 @@ window.onload = function () {
     setInterval(function () {
         opacity = opacity - 0.01;
         preloader.style.opacity = opacity;
-        var ieopacity = opacity * 100;
+        var ieopacity = opacity * 50;
         preloader.style.filter = "alpha(opacity=" + ieopacity + ")";
-    }, 10);
+    }, 5);
     setTimeout(function () {
         document.body.removeChild(preloader);
-    }, 1000)
+    }, 500)
 };
